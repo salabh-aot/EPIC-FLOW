@@ -7,7 +7,6 @@ from dataclasses import dataclass
 @dataclass
 class DefaultSchema:  # pylint: disable=too-few-public-methods
     """Schema representing default validation"""
-
     data: dict
 
     @classmethod
