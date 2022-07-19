@@ -1,7 +1,7 @@
 """add new milestone types PECP events
 
 Revision ID: 99dd99e4dbbc
-Revises: e81a9bcad31d
+Revises: f2071dc275f4
 Create Date: 2022-07-19 14:08:26.514750
 
 """
@@ -12,7 +12,7 @@ from sqlalchemy.sql import column,table
 
 # revision identifiers, used by Alembic.
 revision = '99dd99e4dbbc'
-down_revision = 'e81a9bcad31d'
+down_revision = 'f2071dc275f4'
 branch_labels = None
 depends_on = None
 
